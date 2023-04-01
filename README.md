@@ -93,7 +93,7 @@ from VEHICLES_C02_EMMISIONS vce
 
 
 
-#vehicle types with lower average CO2 emissions(SUV -SMALL OR MID-SIZE)
+* Vehicle types with lower average CO2 emissions(SUV -SMALL OR MID-SIZE)
 
 SELECT AVG("CO2 Emissions(g/km)") AS Avg_CO_emissions,"Vehicle Class" 
 FROM VEHICLES_C02_EMMISIONS vce 
@@ -110,10 +110,11 @@ FROM VEHICLES_C02_EMMISIONS vce
 
 ![](Average_CO2_Emmisions.png)
 
+*Average CO2 emission for small engines
 
 SELECT AVG("CO2 Emissions(g/km)") AS Average_CO2_emissions_for_small_engine
 FROM VEHICLES_C02_EMMISIONS vce 
-WHERE "Engine Size(L)" <=2 
+WHERE "Engine Size(L)" <=2
 
 ![](Average_Co2_Emmisions_for_smaller_engines.png)
 
