@@ -15,7 +15,7 @@ I fell in love with the dataset, so i decided get an insight about what the data
 
 ## Project Background
 
-You volunteer for a public policy advocacy organization in Canada, and your colleague asked you to help her draft recommendations for guidelines on CO2 emissions rules.
+You volunteered for a public policy advocacy organization in Canada, and your colleague asked you to help her draft recommendations for guidelines on CO2 emissions rules.
 After researching emissions data for a wide range of Canadian vehicles, she would like you to investigate which vehicles produce lower emissions.
 
 ### The Data
@@ -63,7 +63,7 @@ Help your colleague gain insights on the type of vehicles that have lower CO2 em
 ![](FIRST_TEN_ROWS_WITH_SQL.png)
 
 
-* Median:
+* Median Engine Size:
 
 ![](Engine_Median_Size_SQL.png)
 
@@ -72,7 +72,8 @@ Help your colleague gain insights on the type of vehicles that have lower CO2 em
 
 ![](AVG_Fuel_Consumption_Per_Fuel_Type_SQL.png)
 
-* First ten rows of the data to be use in calculating correlation
+* First ten rows of fuel consumption and CO2 emissions. 
+* This is to be use in calculating correlation between them.
 
 ![](first_ten_rows_Of_data_exported_to_calculate_correlation.png)
 
@@ -95,7 +96,7 @@ Help your colleague gain insights on the type of vehicles that have lower CO2 em
 
 ## R
 
-*Corellation
+* Corellation
 
 ![](Correlation.png)
 
