@@ -2,12 +2,13 @@
 
 
 
-I came across a project posted by one of the member,of a Tech community i belong to.
+I came across a project posted by one of the member in a Tech community i belong to.
+
 He enrolled in a scholarship organised by Data camp, for people who have completed or are completing their secondary education and are preparing to pursue a degree in computer science or data science, including Students preparing for graduate-level computer science or data science degrees. Using Python and SQL
 
-Prior to this, i already have a schorlarship on Datacamp, courtesy of ingressive for goood. So i wasnt interested in applying for another.
+I already had a schorlarship on Datacamp, courtesy of ingressive for goood. So i wasnt interested in applying for another.
 
-But i love the project, and i decided to recreate one using Excel, SQL and R.
+I fell in love with the dataset, so i decided get an insight about what the data is trying to tell me 👂 using Excel, SQL and R.
 
 
 ![](Emissions_picture.png)
