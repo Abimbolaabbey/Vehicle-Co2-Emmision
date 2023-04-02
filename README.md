@@ -2,7 +2,7 @@
 
 
 
-I came across a project posted by one of the member in a Tech community i belong to.
+I came across a project posted by one of the member in a tech community i belong to.
 
 He enrolled in a scholarship organised by Data camp, for people who have completed or are completing their secondary education and are preparing to pursue a degree in computer science or data science, including Students preparing for graduate-level computer science or data science degrees. Using Python and SQL
 
@@ -57,38 +57,22 @@ Help your colleague gain insights on the type of vehicles that have lower CO2 em
 
 ## SQL
 
-#### Checking my dataset
+#### Checked my dataset
 
-SELECT *
-FROM VEHICLES_C02_EMMISIONS vce 
-LIMIT 10;
 
 ![](FIRST_TEN_ROWS_WITH_SQL.png)
 
-* Question 1:
 
-SELECT MEDIAN("Engine Size(L)")
-from VEHICLES_C02_EMMISIONS vce 
+* Median:
 
 ![](Engine_Median_Size_SQL.png)
 
 
-* Average fuel consumption per fuel type
-
-SELECT "Fuel Type", AVG("Fuel Consumption Comb (L/100 km)") as average_fuel_consumption
-FROM VEHICLES_C02_EMMISIONS vce 
-GROUP BY "Fuel Type" 
+* Average fuel consumption per fuel type 
 
 ![](AVG_Fuel_Consumption_Per_Fuel_Type_SQL.png)
 
-
-##We need to get the correlation between co2 emmision and fuel consumption
-
-
-SELECT "Fuel Consumption Comb (L/100 km)" as fuel_consumption,"CO2 Emissions(g/km)" as co2_emmison
-from VEHICLES_C02_EMMISIONS vce
-
-##We export this data for further analysis in R
+* First ten rows of the data to be use in calculating correlation
 
 ![](first_ten_rows_Of_data_exported_to_calculate_correlation.png)
 
@@ -96,26 +80,14 @@ from VEHICLES_C02_EMMISIONS vce
 
 * Vehicle types with lower average CO2 emissions(SUV -SMALL OR MID-SIZE)
 
-SELECT AVG("CO2 Emissions(g/km)") AS Avg_CO_emissions,"Vehicle Class" 
-FROM VEHICLES_C02_EMMISIONS vce 
-WHERE "Vehicle Class" IN  ('SUV - SMALL','MID-SIZE')
-GROUP BY "Vehicle Class" 
-
 ![](Suv_small_vs_Mid_size.png)
 
 
-*Average CO2 emissions for all vehicles
-
-SELECT AVG("CO2 Emissions(g/km)") AS Average_CO2_emissions
-FROM VEHICLES_C02_EMMISIONS vce
+* Average CO2 emissions for all vehicles
 
 ![](Average_CO2_Emmisions.png)
 
-*Average CO2 emission for small engines
-
-SELECT AVG("CO2 Emissions(g/km)") AS Average_CO2_emissions_for_small_engine
-FROM VEHICLES_C02_EMMISIONS vce 
-WHERE "Engine Size(L)" <=2
+* Average CO2 emission for small engines
 
 ![](Average_Co2_Emmisions_for_smaller_engines.png)
 
@@ -123,30 +95,13 @@ WHERE "Engine Size(L)" <=2
 
 ## R
 
-* Install packages
-
-library(readr)
-library(ggplot2)
-
-* import our data set
-
-VEHICLES_C02_EMMISIONS_202303312314 <- read_csv("C:/Users/maxla/Downloads/VEHICLES_C02_EMMISIONS_202303312314.csv")
-
-* View our dataset
-
-View(VEHICLES_C02_EMMISIONS_202303312314)
-
-* Find the correlation
-
-
-Correlation<-cor(VEHICLES_C02_EMMISIONS_202303312314$fuel_consumption,VEHICLES_C02_EMMISIONS_202303312314$co2_emmison)
+*Corellation
 
 ![](Correlation.png)
 
 
-* Plot a scatter plot to show the corellations between Fuel consumption and CO2 emissions.
+* Scatter plot to show the corellations between Fuel consumption and CO2 emissions.
 
-plot(VEHICLES_C02_EMMISIONS_202303312314$fuel_consumption,VEHICLES_C02_EMMISIONS_202303312314$co2_emmison,col= "red",main = "Fuel consumption vs Co2 Emission",xlab = "Fuel consumption(L/100KM)", ylab = "Co2 Emision(g/km)")
 
 ![](Fuel_consumption_VS_Co2_Emissions_R.png)
 
