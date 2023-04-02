@@ -112,7 +112,7 @@ FROM VEHICLES_C02_EMMISIONS vce
 
 *Average CO2 emission for small engines
 
-```SELECT AVG("CO2 Emissions(g/km)") AS Average_CO2_emissions_for_small_engine
+SELECT AVG("CO2 Emissions(g/km)") AS Average_CO2_emissions_for_small_engine
 FROM VEHICLES_C02_EMMISIONS vce 
 WHERE "Engine Size(L)" <=2
 
