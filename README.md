@@ -152,7 +152,7 @@ plot(VEHICLES_C02_EMMISIONS_202303312314$fuel_consumption,VEHICLES_C02_EMMISIONS
 
 
 
-##Insights:
+## Insights:
 
 * Diesel fuel has the lowest average fuel consumption at 8.3, while ethanol has the highest average fuel consumption at 17.5.
 
@@ -165,7 +165,7 @@ plot(VEHICLES_C02_EMMISIONS_202303312314$fuel_consumption,VEHICLES_C02_EMMISIONS
 * Vehicles with smaller engine sizes (less than or equal to 2.0 liters) emit less CO2 on average than vehicles with larger engine sizes, with the average CO2 emissions for small engine vehicles being 195.16
 
 
-##Recommendations:
+## Recommendations:
 
 If you are looking for a fuel-efficient vehicle with lower CO2 emissions, consider vehicles that run on diesel fuel or regular gasoline, as they have lower average fuel consumption and CO2 emissions than other fuel types.
 Consider purchasing a midsize car instead of a small SUV if you want to reduce your carbon footprint, as midsize cars emit less CO2 on average than small SUVs.
@@ -173,5 +173,7 @@ If you are interested in reducing your CO2 emissions, consider purchasing a vehi
 It is important to note that there are many other factors to consider when purchasing a vehicle, such as safety, reliability, and cost, in addition to fuel consumption and CO2 emissions. 
 
 Therefore, it is recommended to do additional research and consult with a professional before making a purchasing decision.
+
+###Good luck!
 
 
