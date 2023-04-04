@@ -32,6 +32,9 @@ After researching emissions data for a wide range of Canadian vehicles, she woul
 
 + The data comes from the Government of [Canada's](https://open.canada.ca/en) open data [Source](https://app.datacamp.com/workspace/w/30c9e0f9-a189-4ebe-bea1-afa18b857eb6#you-have-access-to-seven-years-of-co2-emissions-data-for-canadian-vehicles-source)
 
+
+![](iStock.png)
+
 We will be using the 2023 dataset:
 
 ### Challenge:
