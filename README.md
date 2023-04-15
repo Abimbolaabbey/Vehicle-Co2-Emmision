@@ -1,22 +1,13 @@
 # Vehicle-Co2-Emmision
 
 
-
-I came across a project posted by one of the member in a tech community i belong to.
-
-He enrolled in a scholarship organised by Data camp, for people who have completed or are completing their secondary education and are preparing to pursue a degree in computer science or data science, including Students preparing for graduate-level computer science or data science degrees. Using Python and SQL
-
-I already had a schorlarship on Datacamp, courtesy of ingressive for goood. So i wasnt interested in applying for another.
-
-I fell in love with the dataset, so i decided get an insight about what the data is trying to tell me 👂 using Excel, SQL and R.
-
-
 ![](Emissions_picture.png)
+
 
 ## Project Background
 
-You volunteered for a public policy advocacy organization in Canada, and your colleague asked you to help her draft recommendations for guidelines on CO2 emissions rules.
-After researching emissions data for a wide range of Canadian vehicles, she would like you to investigate which vehicles produce lower emissions.
+I volunteered for a public policy advocacy organization in Canada, and my colleague asked me to help her draft recommendations for guidelines on CO2 emissions rules.
+After researching emissions data for a wide range of Canadian vehicles, she would like me to investigate which vehicles produce lower emissions.
 
 ### The Data
 
@@ -39,7 +30,7 @@ We will be using the 2023 dataset:
 
 ### Challenge:
 
-Help your colleague gain insights on the type of vehicles that have lower CO2 emissions. Include:
+We would like to gain insights on the type of vehicles that have lower CO2 emissions. Include:
 
 * What is the median engine size in liters?
 * What is the average fuel consumption for regular gasoline (Fuel Type = X), premium gasoline (Z), ethanol (E), and diesel (D)?
